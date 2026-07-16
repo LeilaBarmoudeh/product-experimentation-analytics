@@ -1,0 +1,30 @@
+| Code | Category |
+| ---- | -------- |
+| 1    | Trousers |
+| 2    | Skirts   |
+| 3    | Blouses  |
+| 4    | Sale     |
+
+| Category     |     Clicks |
+| ------------ | ---------: |
+| **Trousers** | **49,742** |
+| Skirts       |     38,408 |
+| Blouses      |     38,577 |
+| Sale         |     38,747 |
+
+What can we conclude?
+
+"Customers like trousers the most."
+NOOOOOOOOOOOOOOOOOOOOOOOO
+
+Why?
+
+Because we don't yet know:
+
+Were there more trouser products available?
+Were trousers shown more prominently?
+Were trousers featured on the homepage?
+Were trousers displayed more often?
+
+The Trousers category generated the highest number 
+

@@ -28,3 +28,110 @@ Were trousers displayed more often?
 
 The Trousers category generated the highest number 
 
+######################### Business interpretation right after Dunn's test
+1. Trousers differ from every other category
+
+This is a very strong result.
+
+Trousers show significantly different engagement compared with:
+
+Blouses
+Skirts
+Sale
+
+This agrees with our boxplots and descriptive statistics.
+
+The median clicks were:
+
+Category	Median
+Trousers	5
+Sale	    4
+Blouses	    3
+Skirts	    3
+
+So Trousers consistently stand out.
+2. Sale also differs from all other categories
+
+Sale is significantly different from
+
+Blouses
+Skirts
+Trousers
+
+This suggests that Sale attracts a distinct browsing pattern.
+3. Blouses and Skirts are NOT significantly different
+
+This is perhaps the most interesting result.
+
+Adjusted p-value:
+
+0.1214
+
+Since
+
+0.1214 > 0.05
+
+we fail to reject the null hypothesis.
+
+In practical terms:
+
+Customers who start with Blouses and Skirts exhibit similar browsing behaviour.
+
+This matches what we saw in the boxplots:
+
+Median = 3
+Similar IQR
+Similar means
+
+This consistency strengthens our confidence in the findings.
+
+Recommendation 1
+The Trousers landing experience deserves the highest priority for optimization
+ because it consistently shows the highest customer engagement.
+
+ Recommendation 2
+ The Sale category also exhibits distinct browsing behaviour and should be 
+ considered for future experiments.
+
+ Recommendation 3
+ Since Blouses and Skirts behave similarly, separate experiments for
+ these two categories may offer limited additional insight. 
+ They could initially be treated together when prioritizing experimentation.
+
+ #############################################################
+ #       Product queation 2:
+ #                Does the first product photo type influence customer engagement?
+ #####################################
+
+ Sessions beginning with Front View images were associated with slightly higher
+  engagement, but the observed effect 
+ was very small. Photo type may be suitable for a low-cost controlled A/B test, 
+ but the current evidence does not justify treating it as a high-impact 
+ optimization opportunity. 
+
+
+ ###########################################
+ #    Product Question 3
+ #    Does the position of the first viewed product influence customer engagement?
+ #
+ ############################################
+
+ Business motivation:
+
+If products displayed in certain positions receive consistently higher engagement,
+ the company could evaluate its product placement 
+strategy and consider controlled A/B experiments to optimize product ordering.
+
+### Business Recommendation
+
+Products initially viewed in the Top Left position exhibited the highest customer 
+engagement among all six positions.
+Although the overall effect size was small, repositioning products is typically 
+a low-cost intervention. Therefore, the Top Left position represents a promising 
+candidate for future controlled A/B experiments to determine whether 
+the observed association reflects a causal improvement in customer engagement.
+
+Feature	Overall Test	Effect Size	Key Pairwise Findings	Business Recommendation
+Product Position	H = 227.48, p < 0.001	ε² = 0.0093	
+Top Left differs from all 
+other positions	Prioritize a Top Left placement A/B test

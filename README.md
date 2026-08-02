@@ -55,6 +55,7 @@ Dataset characteristics:
 
 The project follows a reproducible analytics workflow:
 
+```text
 Business Understanding
         ↓
 Data Cleaning
@@ -68,7 +69,7 @@ Statistical Testing
 Business Interpretation
         ↓
 Experiment Prioritization
-
+```
 
 **Statistical Methods**
 

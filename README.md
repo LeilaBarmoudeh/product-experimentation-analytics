@@ -1,11 +1,11 @@
-Product Experimentation Analytics
+**Product Experimentation Analytics**
 
-From Clickstream Data to Product Experiment Prioritization
+**From Clickstream Data to Product Experiment Prioritization**
 
 An end-to-end product analytics project demonstrating how observational clickstream data can be transformed into actionable product experimentation hypotheses using Python, statistical analysis, and business-oriented decision making.
 
 
-*Project Overview*
+**Project Overview**
 
 Modern product teams continuously ask questions such as:
 
@@ -16,10 +16,10 @@ Modern product teams continuously ask questions such as:
 
 This project analyzes a real-world e-commerce clickstream dataset to identify customer behavior patterns and prioritize future product experiments.
 
-Unlike traditional A/B testing projects, this project focuses on observational data analysis. Statistical findings are used to generate evidence-based experimentation hypotheses rather than making causal claims.
+Unlike traditional A/B testing projects, this project focuses on **observational data analysis**. Statistical findings are used to generate evidence-based experimentation hypotheses rather than making causal claims.
 
 
-*Business Objective*
+**Business Objective**
 
 The objective is to support product managers with data-driven recommendations by:
 
@@ -29,7 +29,7 @@ The objective is to support product managers with data-driven recommendations by
 - Demonstrating an end-to-end analytics workflow suitable for Product Analyst and - - Data Analyst roles
 
 
-*Dataset*
+**Dataset**
 
 *Source*
 
@@ -51,7 +51,7 @@ Dataset characteristics:
 
 
 
-*Analytics Workflow*
+**Analytics Workflow**
 
 The project follows a reproducible analytics workflow:
 
@@ -70,7 +70,7 @@ Business Interpretation
 Experiment Prioritization
 
 
-*Statistical Methods*
+**Statistical Methods**
 
 The project applies non-parametric statistical methods appropriate for highly skewed clickstream data.
 
@@ -86,8 +86,8 @@ Methods include:
 
 
 
-*Current Findings*
-*Product Category*
+**Current Findings**
+**Product Category**
 
 *Question*
 
@@ -102,7 +102,7 @@ Business implication:
 Product category should be considered a strong candidate for future experimentation.
 
 
-*Product Position*
+**Product Position**
 
 *Question*
 
@@ -110,14 +110,14 @@ Does the first viewed product position influence customer engagement?
 
 *Finding*
 
-Products initially displayed in the Top Left position consistently showed higher engagement than other positions.
+Products initially displayed in the **Top Left** position consistently showed higher engagement than other positions.
 
 Business implication:
 
 Product position represents one of the strongest candidates for future A/B testing.
 
 
-*Product Photo Type*
+**Product Photo Type**
 
 *Question*
 
@@ -132,7 +132,7 @@ Business implication:
 Photo presentation may have limited influence on customer engagement.
 
 
-*Product Price Category*
+**Product Price Category**
 
 *Question*
 
@@ -147,31 +147,31 @@ Business implication:
 Price category appears to be a lower priority for future experimentation.
 
 
-*Technologies*
+**Technologies**
 
-*Programming*
+**Programming**
 
 - Python
 - Pandas
 - NumPy
 
-*Visualization*
+**Visualization**
 
 - Matplotlib
 
-*Statistical Analysis*
+**Statistical Analysis**
 
 - SciPy
 - scikit-posthocs
 
-*Development*
+**Development**
 
 - Jupyter Notebook
 - Git
 - GitHub
 
 
-*Key Skills Demonstrated*
+**Key Skills Demonstrated**
 
 - Data Cleaning
 - Session Feature Engineering
@@ -185,11 +185,11 @@ Price category appears to be a lower priority for future experimentation.
 - Version Control with Git
 
 
-*Current Status*
+**Current Status**
 
-*Project Status:*  Ongoing
+**Project Status:**  Ongoing
 
-*Completed:*
+**Completed:**
 
 Business understanding
 Data cleaning
@@ -198,7 +198,7 @@ Exploratory product analytics
 Statistical hypothesis testing
 Business recommendations
 
-*Coming next:*
+**Coming next:**
 
 Experiment prioritization framework
 Interactive dashboard
@@ -206,9 +206,9 @@ SQL-based analytics examples
 Executive summary report
 
 
-*Important Note*
+**Important Note**
 
 This project analyzes observational clickstream data.
 
-The statistical analyses identify associations between product characteristics and customer engagement. These findings are intended to prioritize future A/B testing rather than establish causal relationships.
+The statistical analyses identify **associations** between product characteristics and customer engagement. These findings are intended to prioritize future A/B testing rather than establish causal relationships.
 

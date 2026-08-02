@@ -135,3 +135,42 @@ Feature	Overall Test	Effect Size	Key Pairwise Findings	Business Recommendation
 Product Position	H = 227.48, p < 0.001	ε² = 0.0093	
 Top Left differs from all 
 other positions	Prioritize a Top Left placement A/B test
+
+##################################
+#
+#   Business Question : Does the price category of the first viewed product
+#     influence customer engagement?
+#
+##########################
+
+Statistical Results
+
+The Mann–Whitney U test indicated a statistically significant difference in
+ customer engagement between the two first-product price categories (U = 69,905,411,
+  p < 0.001).
+
+However, the rank-biserial correlation (r = -0.031) indicated a negligible effect 
+size. Descriptive statistics also showed nearly identical medians and highly 
+overlapping distributions.
+
+These findings suggest that although engagement differs statistically between 
+price categories, the practical magnitude of the association is very small.
+
+Business Recommendation
+
+The price category of the first viewed product appears to have only a
+ negligible association with customer engagement. While the difference is
+  statistically detectable due to the large sample size, its practical importance 
+  is limited.
+
+Compared with product category and product position, price category is a lower
+ priority candidate for future A/B experimentation.
+
+ Comparing all four analyses:
+
+
+Feature	                    Test	    Effect Size	   Practical Importance
+First Product Category	Kruskal–Wallis	    ε² = 0.0125	       ⭐⭐⭐⭐
+First Product Position	Kruskal–Wallis	    ε² = 0.0093	       ⭐⭐⭐⭐
+First Product Photo	    Mann–Whitney    r = 0.0647	       ⭐⭐
+First Product Price	    Mann–Whitney    r = -0.0311	       ⭐

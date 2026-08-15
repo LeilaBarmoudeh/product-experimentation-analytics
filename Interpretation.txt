@@ -174,3 +174,88 @@ First Product Category	Kruskal–Wallis	    ε² = 0.0125	       ⭐⭐⭐⭐
 First Product Position	Kruskal–Wallis	    ε² = 0.0093	       ⭐⭐⭐⭐
 First Product Photo	    Mann–Whitney    r = 0.0647	       ⭐⭐
 First Product Price	    Mann–Whitney    r = -0.0311	       ⭐
+
+
+
+It's time to Experiment Prioritization
+
+What should we test?
+
+| Observation                        | Possible Experiment               |
+| ---------------------------------- | --------------------------------- |
+| Trousers attract higher engagement | Change homepage category ordering |
+| Top Left performs best             | Rotate products through Top Left  |
+| Photo type differs slightly        | Test front vs profile photos      |
+| Price effect is negligible         | Low priority experiment           |
+
+
+Prioritization Framework
+
+| Criterion              | Source                             |
+| ---------------------- | ---------------------------------- |
+| Statistical Evidence   | Derived from our statistical tests |
+| Practical Importance   | Derived from effect sizes          |
+| Business Opportunity   | Based on product context           |
+| Engineering Complexity | Assumption (stated explicitly)     |
+
+
+| Experiment                 | Statistical Evidence | Practical Importance | Business Opportunity | Engineering Complexity | Priority |
+| -------------------------- | -------------------- | -------------------- | -------------------- | ---------------------- | -------- |
+| Homepage Product Position  | Strong               | Small                | High                 | Low                    | ⭐⭐⭐⭐⭐    |
+| Homepage Category Ordering | Strong               | Small                | High                 | Medium                 | ⭐⭐⭐⭐     |
+| Product Photo Type         | Strong               | Negligible           | Medium               | Low                    | ⭐⭐       |
+| Product Price Category     | Strong               | Negligible           | Low                  | Medium                 | ⭐        |
+
+
+Expected A/B Tests
+
+| Experiment        | Control         | Treatment                              | KPI                |
+| ----------------- | --------------- | -------------------------------------- | ------------------ |
+| Product Position  | Current layout  | Rotate featured products into Top Left | Clicks per Session |
+| Category Ordering | Current order   | Move high-engagement category earlier  | Clicks per Session |
+| Photo Type        | Existing images | Alternative image style                | Click-Through Rate |
+| Price Display     | Current pricing | Different price presentation           | Conversion Rate    |
+
+
+## Executive Recommendation
+
+The analyses identified statistically significant associations between 
+several product characteristics and customer engagement.
+
+Among the evaluated features, product position and product
+ category showed the strongest practical potential for future 
+ experimentation.
+
+Although photo type and price category also produced statistically 
+significant results, their practical effects were negligible. 
+These should therefore receive lower priority.
+
+Based on the current evidence, the recommended order 
+for future A/B testing is:
+
+1. Product Position
+2. Product Category
+3. Product Photo Type
+4. Product Price Category
+
+Because these findings are based on observational data, 
+randomized controlled experiments are required before
+implementing product changes.
+
+
+ ## Limitations
+
+- The analyses are based on observational clickstream data.
+- Statistical significance does not imply causality.
+- Product characteristics may be correlated with other unmeasured factors.
+- The proposed experiments are hypotheses that require validation through 
+  randomized A/B testing.
+
+
+## Future Work
+
+- Develop an interactive Power BI dashboard for business users.
+- Reproduce key analyses using SQL.
+- Simulate A/B test outcomes under different scenarios.
+- Extend the analysis with user segmentation 
+  (country, session length, device, etc.).

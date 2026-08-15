@@ -192,19 +192,19 @@ Price category appears to be a lower priority for future experimentation.
 
 **Completed:**
 
-Business understanding
-Data cleaning
-Session feature engineering
-Exploratory product analytics
-Statistical hypothesis testing
-Business recommendations
+- Business understanding
+- Data cleaning
+- Session feature engineering
+- Exploratory product analytics
+- Statistical hypothesis testing
+- Business recommendations
+- Experiment prioritization framework
 
 **Coming next:**
 
-Experiment prioritization framework
-Interactive dashboard
-SQL-based analytics examples
-Executive summary report
+- Interactive dashboard
+- SQL-based analytics examples
+- Executive summary report
 
 
 **Important Note**

@@ -192,19 +192,19 @@ Price category appears to be a lower priority for future experimentation.
 
 **Completed:**
 
-- Business understanding
-- Data cleaning
-- Session feature engineering
-- Exploratory product analytics
-- Statistical hypothesis testing
-- Business recommendations
-- Experiment prioritization framework
+Business understanding
+Data cleaning
+Session feature engineering
+Exploratory product analytics
+Statistical hypothesis testing
+Business recommendations
 
 **Coming next:**
 
-- Interactive dashboard
-- SQL-based analytics examples
-- Executive summary report
+Experiment prioritization framework
+Interactive dashboard
+SQL-based analytics examples
+Executive summary report
 
 
 **Important Note**
@@ -213,3 +213,38 @@ This project analyzes observational clickstream data.
 
 The statistical analyses identify **associations** between product characteristics and customer engagement. These findings are intended to prioritize future A/B testing rather than establish causal relationships.
 
+## Power BI Dashboard
+
+### Executive Overview
+
+![Executive Overview](dashboard/screenshots/executive_overview.png)
+
+### Customer Engagement Drivers
+
+![Customer Engagement Drivers](dashboard/screenshots/customer_engagement_drivers.png)
+
+### Experiment Prioritization
+
+![Experiment Prioritization](dashboard/screenshots/experiment_prioritization.png)
+
+
+```text
+Clickstream Data
+      ↓
+Python Data Cleaning
+      ↓
+Session Feature Engineering
+      ↓
+Exploratory Analysis
+      ↓
+Statistical Testing
+      ↓
+SQL Aggregation
+      ↓
+Experiment Prioritization
+      ↓
+Power BI
+      ↓
+Product Decision / Proposed A/B Test
+
+```

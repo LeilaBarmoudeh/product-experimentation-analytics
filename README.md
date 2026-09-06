@@ -217,15 +217,15 @@ The statistical analyses identify **associations** between product characteristi
 
 ### Executive Overview
 
-![Executive Overview](dashboard/screenshots/executive_overview.png)
+![Executive Overview](dashboard/screenshots/executive_overview.jpg)
 
 ### Customer Engagement Drivers
 
-![Customer Engagement Drivers](dashboard/screenshots/customer_engagement_drivers.png)
+![Customer Engagement Drivers](dashboard/screenshots/f3.jpg)
 
 ### Experiment Prioritization
 
-![Experiment Prioritization](dashboard/screenshots/experiment_prioritization.png)
+![Experiment Prioritization](dashboard/screenshots/EXPERIMENT PRIORITIZATION.jpg)
 
 
 ```text

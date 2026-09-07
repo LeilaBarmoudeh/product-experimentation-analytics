@@ -213,21 +213,6 @@ This project analyzes observational clickstream data.
 
 The statistical analyses identify **associations** between product characteristics and customer engagement. These findings are intended to prioritize future A/B testing rather than establish causal relationships.
 
-## Power BI Dashboard
-
-### Executive Overview
-
-![Executive Overview](dashboard/screenshots/executive_overview.jpg)
-
-### Customer Engagement Drivers
-
-![Customer Engagement Drivers](dashboard/screenshots/f3.jpg)
-
-### Experiment Prioritization
-
-![Experiment Prioritization](dashboard/screenshots/EXPERIMENT PRIORITIZATION.jpg)
-
-
 ```text
 Clickstream Data
       ↓
